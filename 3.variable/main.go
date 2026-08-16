@@ -9,9 +9,18 @@ func main() {
 
 	var isStudent = true
 
-	fmt.Println(name)
+	var (
+		port    = 8080
+		host    = "localhost"
+		country = "Pakistan"
+	)
 
+	fmt.Println(name)
 	fmt.Println(age)
+	fmt.Println(isStudent)
+	fmt.Println(port)
+	fmt.Println(host)
+	fmt.Println(country)
 
 	fmt.Println(isStudent)
 
@@ -22,7 +31,11 @@ func main() {
 	fmt.Println(hight)
 
 	// shorthand variable declaration
-	country := "Pakistan"
+	porti := 8080
+	hosti := "localhost"
+	countryi := "Pakistan"
 
-	fmt.Println(country)
+	fmt.Println(porti)
+	fmt.Println(hosti)
+	fmt.Println(countryi)
 }
